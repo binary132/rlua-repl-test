@@ -1,0 +1,12 @@
+/target/
+**/*.rs.bk
+*~
+
+# Emacs tempfiles
+*~
+.#*
+\#*
+*.swp
+
+# REPL history file
+.repl_history

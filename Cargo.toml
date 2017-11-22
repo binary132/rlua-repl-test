@@ -1,0 +1,10 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["Bodie Solomon <bodie@synapsegarden.net>"]
+
+[dependencies]
+rlua = "*"
+rustyline = "1.0.0"
+structopt = "0.1.0"
+structopt-derive = "0.1.0"
