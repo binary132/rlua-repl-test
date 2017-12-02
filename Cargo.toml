@@ -1,10 +1,19 @@
 [package]
-name = "hello"
+name = "slcr"
 version = "0.1.0"
 authors = ["Bodie Solomon <bodie@synapsegarden.net>"]
+
+build = "build.rs"
+include = ["/data/*"]
 
 [dependencies]
 rlua = "*"
 rustyline = "1.0.0"
-structopt = "0.1.0"
-structopt-derive = "0.1.0"
+
+phf = "0.7.21"
+includedir = "0.2.0"
+
+morpha = { path = "../morpha" }
+
+[build-dependencies]
+includedir_codegen = "0.2.0"
